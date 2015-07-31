@@ -1,0 +1,28 @@
+        * (.text*)
+        * (L2TCM_RODATA L2TCM_ROCODE)     
+
+        * (EXCLUDE_FILE( *bootarm_gcc.obj
+                         *SST_intrCtrl.obj 
+                         *divider_gcc.obj
+                         *l1csm.obj     
+                         *L1Trc.obj
+                         
+                         *wmeas.obj     
+                         *wcellinfo.obj 
+                         *wcore.obj     
+                         *wrxbrp.obj    
+                         *wrfm.obj      
+                         *wcs.obj       
+                         *uscounter.obj
+                         
+                         /*MT6583_MD2*/
+                         *tct_gcc.obj
+                         *cp15_gcc.obj
+                         *m12168.obj
+                         *m11303.obj
+                         *m11305.obj
+                         *m12194.obj
+                         *m11301.obj
+                         *l1d_data.obj
+                         *lpwr.obj
+                         )INTERNCODE )

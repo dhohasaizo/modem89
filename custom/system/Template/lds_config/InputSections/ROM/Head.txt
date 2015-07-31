@@ -1,0 +1,2 @@
+        *bootarm_gcc.obj (C$$code)
+        * (LEADING_PART)

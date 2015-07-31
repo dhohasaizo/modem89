@@ -1,0 +1,4 @@
+        * (CACHED_EXTSRAM_ZI)
+        * (PRIMARY_ZI)
+        * (L2TCM_ZI)
+        * (INTERNZI)

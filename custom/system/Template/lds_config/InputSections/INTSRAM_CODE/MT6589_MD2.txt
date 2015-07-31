@@ -1,0 +1,10 @@
+             /* MT6583_MD2 */
+             *tct_gcc.obj (INTERNCODE)
+             *cp15_gcc.obj (INTERNCODE)
+             *m12168.obj (INTERNCODE)
+             *m11303.obj (INTERNCODE)
+             *m11305.obj (INTERNCODE)
+             *m12194.obj (INTERNCODE)
+             *m11301.obj (INTERNCODE)
+             *l1d_data.obj (INTERNCODE)
+             *lpwr.obj (INTERNCODE)

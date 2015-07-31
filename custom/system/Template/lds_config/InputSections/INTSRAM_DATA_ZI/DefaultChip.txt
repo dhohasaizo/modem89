@@ -1,0 +1,1 @@
+        *custom_scatstruct.obj (INTERNZI)

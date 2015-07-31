@@ -1,0 +1,10 @@
+        * (INTSRAM_ZI)
+        * (INTSRAM_ZI_*)
+        * (INTERNZI_TP)
+        
+        *ctrl_buff_pool.obj (INTERNZI)
+        
+        *libnucleus_v2_critical_data.a: (.bss* INTERNZI)
+        *libnucleus_v2_ctrl_code.a: (.bss* INTERNZI)
+        *libnucleus_critical_data.a: (.bss* INTERNZI)
+        *libnucleus_ctrl_code.a: (.bss* INTERNZI)

@@ -1,0 +1,10 @@
+        * (INTSRAM_RODATA INTSRAM_RW)
+        * (INTSRAM_RODATA_* INTSRAM_RW_*)
+        * (INTERNRW_TP)
+        *bootarm_gcc.obj (STACK_POOL_INTSRAM)
+        *ctrl_buff_pool.obj (INTERNCONST INTERNRW)
+        
+        *libnucleus_v2_critical_data.a: (.data* INTERNRW)
+        *libnucleus_v2_ctrl_code.a: (.data* INTERNRW)
+        *libnucleus_critical_data.a: (.data* INTERNRW)
+        *libnucleus_ctrl_code.a: (.data* INTERNRW)
