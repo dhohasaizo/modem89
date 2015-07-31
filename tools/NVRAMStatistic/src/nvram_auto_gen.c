@@ -560,7 +560,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
-#include <io.h>
+//#include <io.h>
 #include <errno.h>
 
 #include "nvram_auto_gen.h"

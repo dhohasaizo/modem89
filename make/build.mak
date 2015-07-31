@@ -781,7 +781,7 @@ remake : backup bootloader done
   else
 remake : backup genlog cleanbin genverno libs $(BIN_FILE) cmmgen cfggen done
   endif
-else # MODIS_CONFIG == TRUE
+else # MODIS_CONFIG = TRUE
 remake : genlog cleanbin genverno
 endif #ifneq ($(strip $(MODIS_CONFIG)),TRUE)
 
@@ -3090,9 +3090,9 @@ endif
 	@$(ECHO) -n "ARM9_PLATFORM  = $(strip $(ARM9_PLATFORM))"  >> $(strip $(TMPDIR))/~compbld.tmp
 	@$(ECHO) -n "ARM11_PLATFORM = $(strip $(ARM11_PLATFORM))" >> $(strip $(TMPDIR))/~compbld.tmp
 	@$(ECHO) -n "CR4_PLATFORM   = $(strip $(CR4_PLATFORM))"   >> $(strip $(TMPDIR))/~compbld.tmp
-	@$(IF_NOT) $(P_VAR)0$(COMPILER) == $(P_VAR)0 $(THEN) \
+	@$(IF_NOT) $(P_VAR)0$(COMPILER) = $(P_VAR)0 $(THEN) \
 		$(ECHO) -n "COMPILER = $(COMPILER)" >> $(strip $(TMPDIR))/~compbld.tmp $(CMD_END)
-	@$(IF_NOT) $(P_VAR)0$(HEADER_TEMP) == $(P_VAR)0 $(THEN) \
+	@$(IF_NOT) $(P_VAR)0$(HEADER_TEMP) = $(P_VAR)0 $(THEN) \
 		$(ECHO) -n "HEADER_TEMP = $(strip $(HEADER_TEMP))" >> $(strip $(TMPDIR))/~compbld.tmp $(CMD_END)
 	@$(ECHO) -n "AUTO_MERGE_PTH = $(AUTO_MERGE_PTH)">> $(strip $(TMPDIR))/~compbld.tmp
 

@@ -80,7 +80,7 @@ IF_EXIST      = if [ -e
 IF_NOT        = if [ ! 
 IF_NOT_EXIST  = if [ ! -e
 IF_ERR_TRUE   = if [ $$? != 0
-IF_ERR_FALSE  = if [ $$? == 0
+IF_ERR_FALSE  = if [ $$? = 0
 THEN          =  ]; then 
 ELSE          = ;else
 CMD_END       =  ;fi

@@ -35,7 +35,7 @@
 #
 export NUMBER_OF_PROCESSORS=`cat /proc/cpuinfo | grep 'processor' | wc -l`
 export USERNAME=$LOGNAME
-if [ "$MTK_INTERNAL" == "TRUE" ] && [ "$MTK_CF" != "TRUE" ]; then
+if [ "$MTK_INTERNAL" = "TRUE" ] && [ "$MTK_CF" != "TRUE" ]; then
 	molyq perl make.pl $*
 else
 	perl make.pl $*

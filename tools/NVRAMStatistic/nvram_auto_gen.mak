@@ -29,7 +29,7 @@ ifeq ($(strip $(OS_VERSION)),MSWin32)
     override PATH := tools/MinGW/bin:${PATH}
 	export $(PATH)
 else
-    GCC := "/usr/bin/gcc-4.4"
+    GCC := "/usr/bin/gcc-4.8"
     LINKER_SCRIPT := tools/NVRAMStatistic/src/nvram_auto_gen_linux.txt
     MV := mv
 endif
